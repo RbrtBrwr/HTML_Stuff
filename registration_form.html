@@ -1,0 +1,28 @@
+<!-- ctr + k, v -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form</title>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <form action="/register">
+            <label for="firstname">First Name: </label>
+            <input type="text" placeholder="Pepe" id="firstname" name="firstname" required>
+            <br><br>
+            <label for="lastname">Last name: </label>
+            <input type="text" placeholder="Sylvia" id="lastname" name="lastname" required>
+            <br><br>
+            <label for="phonenum">Phone Number: </label>
+            <input type="tel" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="PepeSylvia@sunny.com" id="email" name="email" required>
+            <br><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+
+</html>
